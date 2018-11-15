@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Spring  } from 'react-spring';
 import Counter from './components/Counter';
+import HookedComponent from './components/Hooks';
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
                       Learn React
                     </a>
                     <Counter />
+                    <HookedComponent />
                   </header>
                 </div>
               </div>
